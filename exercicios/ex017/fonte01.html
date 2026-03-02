@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            font-family:'Works Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mn, in, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1 em
+            */
+            font-size: 1.2em;
+        }
+
+        h1 {
+            /*shorthand font
+            font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em 'work sans', 'sans serif';
+        }
+
+        h2 {
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nisi alias quos aut, tempore sint quas, molestias repellat inventore obcaecati cumque porro expedita cum iure ipsa eveniet rerum odio necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, ex nulla aliquam minima illum aliquid perferendis doloremque ipsam rerum alias deserunt, unde odit. Sunt odit itaque, explicabo harum nesciunt soluta.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum atque eveniet cupiditate? Eaque a, maiores dolores amet voluptates ducimus enim dolorum nobis, temporibus ipsa aliquam cupiditate tenetur consequuntur sint est.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat vel expedita amet. Ut, unde nulla consequatur assumenda asperiores vel incidunt a ea sapiente. Quod, laborum repudiandae. Iure nobis illum illo.</p>
+</body>
+</html>
