@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interstellar</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #espaco {
+            position: relative;
+            height: 100vh;
+            background: black url('imagens/espaco.jpg') center center no-repeat fixed;
+            background-size: cover;
+        }
+
+        #astronauta {
+            position: absolute;
+            height: 508px;
+            width: 508px;
+            background-image: url('imagens/astronauta.png');
+            size: 100% 100%;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="espaco">
+        <div id="astronauta">
+
+        </div>
+    </div>
+</body>
+</html>
